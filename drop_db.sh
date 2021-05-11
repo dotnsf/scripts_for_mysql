@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# MySQL root Password
+#MYSQL_ROOT_PASSWORD=P@ssw0rd
+
 if [ $# -gt 0 ] ; then
   USER="$1"
 

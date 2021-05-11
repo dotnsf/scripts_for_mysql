@@ -5,6 +5,16 @@ Shell scripts to handle MySQL by cli.
 
 ## Pre-requisite
 
+You need to install **openssl** first:
+
+- CentOS / RHEL
+
+  - `$ sudo yum install openssl`
+
+- Debian
+
+  - `$ sudo apt-get install openssl`
+
 You must change **password validataion policy** to **LOW** before using these scripts:
 
 - Login with mysql cli as root.

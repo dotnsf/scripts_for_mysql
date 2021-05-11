@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# MySQL root Password
+#MYSQL_ROOT_PASSWORD=P@ssw0rd
+
 # create random password
 PASSWD="$(openssl rand -base64 12)"
 
